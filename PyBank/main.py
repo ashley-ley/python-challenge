@@ -20,7 +20,7 @@ Greatest_Decrease = 0
 with open(PyBankcsvpath, encoding = "UTF-8") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
 
-    # This will not count the first row in the program
+    # This will store the header row
     headers = next(csvreader)
 
     for row in csvreader:

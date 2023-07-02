@@ -71,7 +71,7 @@ PyBank_output = os.path.join(r"C:\Users\14029\Desktop\BCS Projects\python-challe
 
 with open(PyBank_output, "w") as file: 
     # Change all strings to f strings
-    file.write("Financial Analysisn\n")
+    file.write("Financial Analysis\n")
     file.write("----------------------------\n")
     file.write(f"Total Months: {str(Total_Months)}\n") 
     file.write(f"Total: $ {str(totalPL)}\n")

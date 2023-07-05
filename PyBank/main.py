@@ -53,7 +53,7 @@ with open(PyBankcsvpath, encoding = "UTF-8") as csvfile:
 totalPL = sum_profit + sum_loss
         
 # total_changePL = sum_profit - sum_loss with rounding 
-avg_change = round(totalPL / (Total_Months -1), 1)
+avg_change = round(totalPL / (Total_Months), 1)
 
 
 # Print the analysis in terminal
